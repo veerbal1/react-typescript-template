@@ -1,7 +1,12 @@
 import React from 'react';
+import './styles.css';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <h1>App {process.env.name} Singh</h1>
+    </>
+  );
 };
 
 export default App;
